@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ECommerce app</string>
+    <string name="sign_in">Sign In</string>
+    <string name="female">Female</string>
+    <string name="Confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="gender">Gender :-</string>
+    <string name="e_mail">Email Address</string>
+    <string name="male">Male</string>
+    <string name="other">Other</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="name">Username</string>
+    <string name="sign_up_heading">Sign Up</string>
+    <string name="first_slide">Choose your product</string>
+    <string name="second_slide">Fast Delivery</string>
+    <string name="third_slide">Good Service</string>
+    <string name="description">Lorem Ipsum is simply dummy text of the printing  and typesetting industry .Lorem Ipsum has been the industrys standard dummy text ever since the </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category">Category</string>
+    <string name="see_all">See All</string>
+    <string name="detailed_desc">Get instant advice from Samsung experts, and enjoy a 14-day return policy if you\'re not satisfied with your purchase. Plus, explore flexible finance options to make your new Samsung phone more affordable</string>
+    <string name="total_price_40">Total Price :$40</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="add_address">ADD ADDRESS</string>
+    <string name="continue_to_payment">CONTINUE TO PAYMENT</string>
+</resources>

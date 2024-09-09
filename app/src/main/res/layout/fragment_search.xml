@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:id="@+id/searchContainer"
+    tools:context=".fragments.SearchFragment">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_toolbar"
+            android:minHeight="?actionBarSize"
+            android:background="@drawable/toolbar_bg_color"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+<!--                <androidx.appcompat.widget.SearchView-->
+<!--                    android:layout_width="210dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:id="@+id/searchView"-->
+<!--                    android:queryHint="Search Here..."-->
+<!--                    android:iconifiedByDefault="false"-->
+<!--                    android:fontFamily="sans-serif-condensed-medium"-->
+
+<!--                    />-->
+                <EditText
+                    android:id="@+id/editTextSearch"
+                    android:layout_width="210dp"
+                    android:layout_height="40dp"
+                    android:hint="Search..."
+                    android:textColor="@color/black"
+                    android:drawableLeft="@drawable/baseline_search_24"
+                    android:textColorHint="@color/black"
+                    android:drawablePadding="7dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:inputType="text" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/search_btn"
+                    android:text="Search"
+                    android:background="@drawable/intro_signin_txt"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?actionBarSize"
+    android:id="@+id/search_recy"
+    android:padding="16dp"
+    />
+
+
+</FrameLayout>

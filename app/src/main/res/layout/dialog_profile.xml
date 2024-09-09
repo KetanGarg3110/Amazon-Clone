@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape_dialog"
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/baseline_shopping_cart_checkout_24"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Are you sure you want to log out"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="No"
+            android:id="@+id/noBtn"
+            android:textSize="15sp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/shape_no_btn"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Yes"
+            android:id="@+id/yesBtn"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="15sp"
+           android:layout_weight="1"
+            android:background="@drawable/shape_yes_btn"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="40dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placed"
+        android:id="@+id/placedTxt"
+        android:textColor="#886E00"
+        android:textStyle="italic|bold"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="5dp"
+        android:id="@+id/nameTxt"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone No."
+        android:textColor="@color/black"
+        android:id="@+id/phoneNumber"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="@color/black"
+        android:id="@+id/addressTxt"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textColor="@color/black"
+        android:id="@+id/cityTxt"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order on:"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textStyle="italic|bold"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="@color/black"
+            android:id="@+id/orderDate"
+            android:fontFamily="serif"
+            android:layout_marginStart="5dp"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:id="@+id/orderPrice"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginEnd="5dp"
+            android:textSize="25sp"
+            android:textAlignment="viewEnd"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
